@@ -1,0 +1,151 @@
+<html>
+<head>
+<style type= "text/css">
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+*{
+
+    margin:0;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.main_div{
+
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(216, 100%, 94%);
+}
+
+
+.center-div{
+    width:300px;
+    height:180px;
+    border-radius: 16px;
+    background: linear-gradient(to right top, #52b6fe, #6154fe );
+    padding:30px;
+    position:relative;
+    box-shadow: 
+    0 2.8px 2.2px rgba(0,0,0,0.034),
+    0 6.7px 5.3px rgba(0,0,0,0.048),
+    0 12.5px 10px rgba(0,0,0,0.06),
+    0 12.3px 17.9px rgba(0,0,0,0072),
+    0 41.8px 33.4px rgba(0,0,0,0.086),
+    0 100px 80px rgba(0,0,0,0.12),
+    
+    ;
+
+}
+
+.center-div::before{
+    content:"";
+    position: absolute;
+    widows: 100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:16px ;
+    height:100%;
+    clip-path: polygon(50% 0%, 99% 1%, 100% 60%, 100% 100%, 73% 49%, 29% 48%, 1% 1%);
+    background: rgb(1,4,64);
+    background: radial-gradient(90deg, rgba(1,4,64,1) 14%, rgba(20,1,130,1) 24%, rgba(39,5,185,0.9535962877030162) 51%,  rgba(0,104,255,1) 75%, rgba(5,145,184,1) 93%  );
+    z-index:1;  
+    opacity:
+
+}
+
+.center-div::after{
+    content:"";
+    position: absolute;
+    widows: 100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:16px ;
+    height:100%;
+    clip-path: polygon(50% 0%, 99% 1%, 100% 60%, 100% 100%, 73% 49%, 29% 48%, 1% 1%);
+    background: rgb(1,4,64);
+    background: radial-gradient(90deg, rgba(1,4,64,1) 14%, rgba(20,1,130,1) 24%, rgba(39,5,185,0.9535962877030162) 51%,  rgba(0,104,255,1) 75%, rgba(5,145,184,1) 93%  );
+    z-index:1;  
+    opacity:
+}
+
+.center-div .top_div{
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    z-index:1;
+
+}
+
+.center-div .top_div h2{
+
+    font-size:14px;
+    letter-spacing: 2px;
+    font-weight:300;
+    align-items: center;
+    z-index:1;
+
+}
+
+.center-div .top_div h1{
+    font-size: 30px;
+    text-align:right;
+    text-transform:uppercase;
+    z-index:1;
+}
+
+
+.center-div .bottom-div{
+
+    position:absolute;
+    bottom:20px;
+
+}
+
+.center-div .bottom-div h2{
+    font-size: 15px;
+    font-weight: 300;
+    text-transform:capitalize;
+    color: #dfefe9;
+    margin:bottom:px;
+    letter-spacing: px;
+}
+
+.center-div .bottom-div p{
+    color: #fff;
+}
+
+
+
+</style>
+</head>
+<body>
+
+    <div class="main_div">
+        <div class= "center-div">
+            <div class="top_div">
+                <h2>CREDIT </h2>
+                <h1> Visa</h1>
+
+            </div>
+            <div class="bottom-div">
+                <h3> Saumya Sharma</h3>
+                <p> 1234- 5678- 2565- 1235</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+
+
+</html>
